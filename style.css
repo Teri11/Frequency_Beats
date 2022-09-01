@@ -48,3 +48,6 @@
 .left-col{
   margin-left: 6%;
 }
+.right-col p{
+  color: white;
+}
