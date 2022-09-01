@@ -14,4 +14,17 @@
 .navbar{
   width: 88%;
   margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo1{
+  width: 140px;
+  cursor: pointer;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
 }
