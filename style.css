@@ -32,5 +32,19 @@
   text-decoration: none;
   color: white;
   font-size: 15px;
-  
+
+}
+.left-col h1{
+  color: white;
+  font-size: 90px;
+  line-height: 110px;
+  float: left;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+.left-col{
+  margin-left: 6%;
 }
