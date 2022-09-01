@@ -25,10 +25,29 @@
 </div>
 <div class="right-col">
   <p><strong>Click Here to listen</strong></p>
-  <img src="images/play.png" alt="">
+  <img src="images/play.png" id="icon" alt="">
 </div>
     </div>
   </div>
-  
+  <audio id="mySong">
+    <source src="media/Bidii Yangu   Juacali.mp3" type="audio/mp3">
+
+  </audio>
 </body>
+<script>
+  let mySong = document.getElementById("mySong");
+  let icon = document.getElementById("icon");
+
+      icon.onclick = function(){
+           if(mySong.paused){
+              mySong.play();
+              icon.src ="images/pause.png";
+       }else{
+         mySong.pause();
+         icon.src ="images/play.png";
+       }
+ 
+  }
+ 
+ </script>
 </html>
